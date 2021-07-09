@@ -1,0 +1,36 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+  
+
+/* ================================= 
+    Form Element Styles
+==================================== */
+  
+  form {
+      padding: .875em 1.875em 1.875em;
+      width: 275px;
+      height: 200px;
+  }
+
+  th {
+      font-size: 18px;
+      font-weight: bold;
+  }
+  
+  td {
+      padding: 10px;
+  }
+
+  ::placeholder {
+      font-style: italic;
+  }
+  
+  
