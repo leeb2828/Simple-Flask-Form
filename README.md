@@ -9,17 +9,18 @@ This project was built using
 - Flask-WTF. It is a built-in module of flask which allows for designing forms in your application, so you don't have to hard code everything in your
   HTML file.
 - Sqlite database.
-
+- 
+I wrote all of the backend code with modifications to the HTML and CSS templates. The home page displays a form that the user can fill out (name, phone number, email, and job title). When the user fills out the form, their information is entered into the database. 
 <br />
 
 ![Form Page](images/formpage.png)
 
 <br />
-
+A "Than you for Registering" page will display, and the user will have the option of entering a new user or viewing the entire database of people. 
 ![Submitted Page](images/thankyou.png)
 
 <br />
-
+On the database page, the user can delete or modify a person's information. 
 ![Database Page](images/the_database.png)
 
 <br /><br />
