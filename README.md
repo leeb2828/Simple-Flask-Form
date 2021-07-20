@@ -17,10 +17,14 @@ I wrote all of the backend code with modifications to the HTML and CSS templates
 
 <br />
 A "Than you for Registering" page will display, and the user will have the option of entering a new user or viewing the entire database of people. 
+<br />
+
 ![Submitted Page](images/thankyou.png)
 
 <br />
 On the database page, the user can delete or modify a person's information. 
+<br/>
+
 ![Database Page](images/the_database.png)
 
 <br /><br />
