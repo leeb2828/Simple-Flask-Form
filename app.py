@@ -45,7 +45,5 @@ def get_all_rows_from_table():
     return users 
     
 db_is_new = db.create_all() if not os.path.exists('info.db') else None
-
-# start the app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host=5000,debug=True)
