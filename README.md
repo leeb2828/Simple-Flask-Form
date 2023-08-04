@@ -1,6 +1,6 @@
 # Simple Flask Form
 
-This project was built using 
+This project was forked from https://github.com/leeb2828/Simple-Flask-Form
 - HTML 
 - CSS 
 - Python 
@@ -9,8 +9,8 @@ This project was built using
 - Flask-WTF. It is a built-in module of flask which allows for designing forms in your application, so you don't have to hard code everything in your
   HTML file.
 - Sqlite database.
-
-I wrote all of the backend code with modifications to the HTML and CSS templates. The home page displays a form that the user can fill out (name, phone number, email, and job title). When the user fills out the form, their information is entered into the database. 
+- Dockerfile
+ 
 <br />
 
 ![Form Page](images/formpage.png)
@@ -28,7 +28,7 @@ On the database page, the user can delete or modify a person's information.
 ![Database Page](images/the_database.png)
 
 <br /><br />
-### How to use this Project
+### Local run
 Download the files using the git clone command.
 ```
 $ git clone <link to project>
@@ -38,8 +38,7 @@ Create your virtual environment
 $ python3 -m venv env
 $ source env/bin/activate
 ```
-I created the requirements.txt file using the pip freeze command.
-Install all dependencies from the requirements.txt file.
+You can run locally by 
 ```
 $ pip install -r requirements.txt
 ```
@@ -48,3 +47,12 @@ Run the app.py file
 $ python3 app.py
 ```
 Type in http://localhost:5000 into your browser to view the project live.
+ 
+### Or you can run the docker container
+```
+./docker.sh
+http://0.0.0.0:5000/
+```
+
+
+

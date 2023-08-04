@@ -43,12 +43,5 @@ def delete(the_id):
 def submitted():
     from app import insert_data
     if request.method == 'POST':
-        name = request.form['name']
-        phone = request.form['phone']
-        email = request.form['email']
-        job = request.form['job']
-
-        # insert data into database
-        insert_data(name, phone, email, job)
-
+        insert_data(**{k: v for k,v in request.form.items() if k !='csrf_token'})
     return render_template('submitted.html')
